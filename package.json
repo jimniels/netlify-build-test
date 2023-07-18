@@ -1,0 +1,16 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": "^18"
+  },
+  "scripts": {
+    "start": "netlify dev -d dist & node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "netlify-cli": "^15.9.0",
+    "update-notifier": "^6.0.2"
+  }
+}
